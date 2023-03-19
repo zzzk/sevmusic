@@ -1,0 +1,7 @@
+	slowcat(
+    s("sd hh hh hh*2"),
+    s("bd bd*4"),
+    s("cp hh  ~ hh"),
+    s("cp hh"),
+     s("cp*2 sd")
+  ).fast(1.2)

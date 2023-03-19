@@ -1,0 +1,23 @@
+//s("misc oh hh hh").fast(1/2)
+
+//s("bd sd,hh*8").bank("RolandTR808")
+
+//s("bd sd,hh*8").bank("<RolandTR808 RolandTR909>")
+//s("hh*4").bank("RolandTR909").n("<0 1 2 3>")
+
+//s("bd:1 bd:2,hh:0 hh:1 hh:2 hh:3").bank("RolandTR909").fast(1/2)
+
+samples({
+  bd: 'bd/BT0AADA.wav',
+  sd: 'sd/rytm-01-classic.wav',
+  hh: 'hh27/000_hh27closedhh.wav',
+}, 'https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/');
+s("bd sd,hh*8")
+
+/*
+does not work
+samples({
+  bd: 'ajkpercusyn-cb/Snarepop.wav'
+}, 'https://github.com/ritchse/tidal-drum-machines/tree/main/machines/AJKPercusyn/');
+s("bd")
+*/

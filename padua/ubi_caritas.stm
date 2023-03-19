@@ -1,0 +1,22 @@
+//Ubi Caritas
+stack(
+  slowcat(
+    note("a3 a3 g3 g3"), note("f3 [~ f3]"), note("a#3 a3"), note("g3"),
+    note("a3 a3 g3 g3"), note("f3"), note("[d3 d3] [e3 d3 e3]"), note("f3")
+  ).s("piano"),
+  slowcat(
+    note("f2 f2 e2 e2"),note("d2 [~ d2]"), note("d2 a1"), note("b1 c2"),
+    note("f2 f2 e2 e2"), note("d2"), note("[d2 d2] [c2]"), note("c2")
+  ).s("sax"),
+  // Leo doesn't want any synthitic stuff
+  // s("sd hh hh hh")
+  // change 'fast' value to adopt default bpm of 120
+  // with 1/2 we have it set to 60
+).fast(1/2).clip(1)
+
+//instrumenting
+/*
+slowcat(
+ freq(440), note("a4").s("piano"), note("a4"), note("a3").s("sax").clip(1)
+)
+*/
