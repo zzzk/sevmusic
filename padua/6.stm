@@ -1,0 +1,6 @@
+//keine Ahnung wie er titel ist, das Lied hat nummer 6
+slowcat(
+    note("f#4 e4"), note("d4@3 d4"), note("g4 f#4 e4 d4"),
+    note( "f#4@1.5 f#4@0.5 e4@2"), note("a4@2 f#4  e4"),
+    note( "d4 e4"), note("f#4 e4"), note("d4@3 ~")
+).fast(1/4).sound("gm_accordion")
